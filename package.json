@@ -1,0 +1,21 @@
+{
+  "name": "node-zero-to-hero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ExpressServer.js",
+  "scripts": {
+    "start": "nodemon sql/Student.js",
+    "server" : "nodemon ExpressServer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mssql": "^7.2.0"
+  }
+}

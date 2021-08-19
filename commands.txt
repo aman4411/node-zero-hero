@@ -1,0 +1,14 @@
+1. node --version           // Check node Version 
+2. node -v                  // Check node Version 
+3. npm --version            // Check npm Version 
+4. npm -v                   // Check npm Version 
+5. npm init                 // To create package.json
+6. npm init -y              // shortcut of npm init 
+7. npm install package      // To Install Node.JS package
+8. npm uninstall package    // To uninstall Node.JS package
+9. npm i package            // To Install Node.JS package
+10.npm u package            // To Uninstall Node.JS package
+11.npm i package -g         // To Install Node.JS package globally
+12.npm u package -g         // To Uninstall Node.JS package globally
+13.npm install package --save-dev // To Install dev Dependencies
+14.npm install package --save // To Install Dependencies (--save is optional)

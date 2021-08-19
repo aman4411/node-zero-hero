@@ -1,0 +1,68 @@
+* Node.JS is an open source server side runtime environment 
+  built on chrome's v8 Javascript Engine
+
+Node.JS can be used to build different types of applications 
+such as "command line applications", "web applications", "real-time 
+chat applications". rest API server etc.
+
+Advantages
+-----------
+1. We can use Javascript to build entire server side application 
+2. Asynchronous by default, so ot performs faster
+3. Cross-Platform framework that runs on windows, mac and linux
+
+DataTypes
+---------
+String, Number, Boolean, Undefined, Null, Object, function
+
+Process Object
+---------------
+-> Each NodeJs Script runs in a process. 
+-> This gives all the information about the current process
+
+Module Types
+------------
+1. Core Modules - http, url, querystring, path etc..
+2. Local Modules
+3. Third Party Modules
+
+module.exports
+---------------
+is a special object which is included in every javascript file
+in the node.js application
+
+
+module - It is a variable that represents the current module
+
+exports - is an object that will be exposed as a module 
+
+
+what ever we assign to module will be exposed as a module
+
+module.exports ="Hello Word"
+
+File System
+--------------
+Node.JS include 'fs' module to access physical file system
+
+'fs' module is responisble for all the asynchronous and synchronous operations
+
+Node.Js Event Emitter
+---------------------
+Node.Js allows us to create and handle custome events by using 'events' module. 
+
+'events' module includes EventEmitter class which can be used to handle 
+custom events
+
+
+ExpressJS
+---------
+-> This is a webframework for Node.JS
+-> This provides various features that make web developement easy and fast
+
+Advantages
+-----------
+1. Easy to configure
+2. Allows us to define routes
+3. Allows us to create Rest API Server
+4. East to connect to databases such as MongoDB, Redis, MySQL, MSSQL, Postgresql
